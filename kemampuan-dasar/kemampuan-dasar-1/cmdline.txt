@@ -1,0 +1,94 @@
+1. arp -a
+	Interface: 172.20.10.3 --- 0xc
+  Internet Address      Physical Address      Type
+  172.20.10.1           aa-e8-7f-86-ea-64     dynami
+  172.20.10.15          ff-ff-ff-ff-ff-ff     static
+  224.0.0.2             01-00-5e-00-00-02     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  224.0.0.253           01-00-5e-00-00-fd     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+
+	Interface: 192.168.56.1 --- 0x1c
+  Internet Address      Physical Address      Type
+  192.168.56.255        ff-ff-ff-ff-ff-ff     static
+  224.0.0.2             01-00-5e-00-00-02     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+  
+2. mkdir hello
+	PS C:\Windows\system32> mkdir hello
+
+
+    Directory: C:\Windows\system32
+
+
+Mode                LastWriteTime     Length Name
+----                -------------     ------ ----
+d----         11/4/2019   7:32 PM            hello
+
+3. netstat	
+PS C:\Windows\system32> netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    127.0.0.1:54433        user-THINK:54434       ESTABLISHED
+  TCP    127.0.0.1:54434        user-THINK:54433       ESTABLISHED
+ 
+4.nslookup
+	PS C:\Windows\system32> nslookup
+DNS request timed out.
+    timeout was 2 seconds.
+Default Server:  UnKnown
+Address:  172.20.10.1
+
+5. ls /
+	PS C:\Windows\system32> ls /
+
+
+    Directory: C:\
+
+
+Mode                LastWriteTime     Length Name
+----                -------------     ------ ----
+d----        10/11/2018  11:06 PM            $WINDOWS.~BT
+d----        10/23/2017  10:50 AM            28b7f5c02f8c22d4a2
+d----        10/25/2017  11:21 AM            4e0a04513022acfd7531e161850f83
+d----          9/4/2019   2:16 PM            cdrom
+d----        10/12/2018  12:36 AM            ESD
+d----        10/11/2017   5:03 PM            Huawei
+d----         5/28/2016  12:14 AM            Intel
+d----         7/27/2017   7:35 PM            ldiag
+d----          7/6/2019   9:58 PM            Local Disk D_7620192158
+d----          7/4/2019   6:03 PM            Local Disk_742019183
+d----          7/8/2019   6:23 AM            PerfLogs
+d-r--         11/3/2019   7:52 PM            Program Files
+d-r--         11/4/2019   4:53 PM            Program Files (x86)
+d----         7/27/2017   7:25 PM            swshare
+d----         7/11/2019   8:40 AM            SWTOOLS
+d-r--          9/3/2019   6:07 PM            Users
+d----          9/3/2019   7:40 PM            win32-loader
+da---         11/4/2019   6:56 PM            Windows
+d----         10/4/2019  10:59 PM            xampp
+-a---         8/27/2019   5:53 PM     183472 g2ldr
+-a---         8/27/2019   5:53 PM       8192 g2ldr.mbr
+
+6. cd..
+	PS C:\Windows\system32> cd..
+PS C:\Windows>
+
+7. cd /windows/system32
+	PS C:\Windows> cd /Windows/system32
+PS C:\Windows\system32>
+
+8. 
+
+
+  
+	
